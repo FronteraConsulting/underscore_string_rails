@@ -14,8 +14,9 @@ Gem::Specification.new do |s|
   s.description = "Make Underscore.string available in the Rails asset pipeline."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
-
+  s.files = Dir["{app,config,db,lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.test_files = Dir["spec/**/*"]
+  
   s.add_dependency "rails", "~> 4.2.0"
 
   s.add_development_dependency 'rspec-rails'
