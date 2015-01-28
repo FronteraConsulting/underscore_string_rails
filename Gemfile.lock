@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    underscore_string_rails (3.0.2.0.0)
+    underscore_string_rails (3.0.2.0.1)
       rails (~> 4.2.0)
 
 GEM
